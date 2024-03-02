@@ -1,0 +1,41 @@
+.resultsContainer {
+  padding-top: 30px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  flex-direction: column;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #fcc822;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & p {
+    font-size: 100px;
+    color: #fff;
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  & button {
+    font-size: 18px;
+    padding: 0 10px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    &:first-child {
+      background-color: #d1d1d1;
+      color: #111;
+    }
+    &:last-child {
+      background-color: #fcc822;
+      color: #fff;
+    }
+  }
+}

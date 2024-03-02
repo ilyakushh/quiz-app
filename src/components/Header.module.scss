@@ -1,0 +1,20 @@
+.headerContainer {
+  z-index: 1;
+  padding: 20px 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ecece8;
+  & img {
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  & button {
+    color: #fcc822;
+    text-transform: capitalize;
+    background-color: inherit;
+    cursor: pointer;
+  }
+}

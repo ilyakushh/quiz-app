@@ -1,0 +1,38 @@
+.quizNavigationPanel {
+  display: flex;
+
+  max-width: 600px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 100%;
+
+  & button {
+    font-size: 18px;
+    padding: 0 10px;
+    width: 105px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+  }
+  & button:first-child {
+    background-color: #d1d1d1;
+  }
+  & button:last-child {
+    background-color: #fcc822;
+    color: #fff;
+  }
+}
+.time {
+  position: relative;
+  & .countdownWarning {
+    color: red;
+  }
+  & span {
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  }
+}
